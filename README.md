@@ -97,13 +97,13 @@ spotify/
 ## API Endpoints
 
 ### Authentication
-POST /api/auth/register - User registration
-POST /api/auth/login - User login
-GET /api/auth/users - Get all users (for testing)
+- POST /api/auth/register - User registration<br>
+- POST /api/auth/login - User login<br>
+- GET /api/auth/users - Get all users (for testing)<br>
 
 ### Music Library:
-GET /api/songs - Get all songs
-GET /api/songs/:id - Get specific song by ID
-GET /api/search?q=query - Search songs by title/artist
+- GET /api/songs - Get all songs<br>
+- GET /api/songs/:id - Get specific song by ID<br>
+- GET /api/search?q=query - Search songs by title/artist<br>
 
  
