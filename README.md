@@ -9,24 +9,7 @@ This is a music streaming web application built with Node.js backend and vanilla
 
 ## Project Structure
 
-spotify/
-├── server/                 # Backend server
-│   ├── server.js          # Main server file with song database
-│   ├── routes/
-│   │   └── auth.js        # Authentication endpoints
-│   ├── models/
-│   │   └── User.js        # User data model
-│   └── package.json       # Server dependencies
-├── images/                 # Song cover art (20 images)
-├── songs/                  # MP3 audio files (20 songs)
-├── index.html             # Main application page
-├── login.html             # User login page
-├── register.html          # User registration page
-├── script.js              # Main application logic
-├── style.css              # Application styling
-├── auth.js                # Authentication logic
-├── auth-styles.css        # Auth page styling
-└── package.json           # Project dependencies
+<pre> ```text spotify/ ├── server/ # Backend server │ ├── server.js # Main server file with song database │ ├── routes/ │ │ └── auth.js # Authentication endpoints │ ├── models/ │ │ └── User.js # User data model │ └── package.json # Server dependencies ├── images/ # Song cover art (20 images) ├── songs/ # MP3 audio files (20 songs) ├── index.html # Main application page ├── login.html # User login page ├── register.html # User registration page ├── script.js # Main application logic ├── style.css # Application styling ├── auth.js # Authentication logic ├── auth-styles.css # Auth page styling └── package.json # Project dependencies ``` </pre>
 
 ## Technologies Used
 
