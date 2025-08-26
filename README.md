@@ -33,7 +33,7 @@ spotify/
 
 ### Backend:
 
-Node.js - JavaScript runtime environment<br>
+-Node.js - JavaScript runtime environment<br>
 Express.js - Web application framework<br>
 CORS - Cross-origin resource sharing<br>
 File System (fs) - Local file management<br>
