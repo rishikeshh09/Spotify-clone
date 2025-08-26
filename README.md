@@ -2,10 +2,6 @@
 
 Spotify Clone is a full-stack web application that replicates the core functionality of Spotify's music streaming service. It features a modern, responsive user interface with authentication, a dynamic song library, and an interactive music player with features like play/pause, skip, volume control, and search functionality..
 
-# Summary
-
-This is a music streaming web application built with Node.js backend and vanilla JavaScript frontend. Users can register/login, browse a curated collection of 20 popular songs, play music with full player controls, search through the library, like songs, and enjoy a responsive design that mimics Spotify's aesthetic. The project demonstrates modern web development practices including API design, authentication, file serving, and dynamic UI generation.
-
 
 ## Project Structure
 
