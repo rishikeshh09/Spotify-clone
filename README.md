@@ -34,43 +34,34 @@ spotify/
 ### Backend:
 
 Node.js - JavaScript runtime environment<br>
-Express.js - Web application framework
-
-CORS - Cross-origin resource sharing
-
-File System (fs) - Local file management
+Express.js - Web application framework<br>
+CORS - Cross-origin resource sharing<br>
+File System (fs) - Local file management<br>
 
 ### Frontend:
 
-Vanilla JavaScript - No frameworks, pure JS
-
-HTML5 - Semantic markup
-
-CSS3 - Modern styling with animations
-
-Font Awesome - Icon library
-
+Vanilla JavaScript - No frameworks, pure JS<br>
+HTML5 - Semantic markup<br>
+CSS3 - Modern styling with animations<br>
+Font Awesome - Icon library<br>
 
 ### Data Storage:
 
-Local Storage - Client-side data persistence
-
-In-Memory Storage - Server-side user management
-
-File System - Audio and image storage
+Local Storage - Client-side data persistence<br>
+In-Memory Storage - Server-side user management<br>
+File System - Audio and image storage<br>
 
 ### Development Tools:
 
-npm - Package management
-
-nodemon - Development server with auto-reload
+npm - Package management<br>
+nodemon - Development server with auto-reload<br>
 
 
 ## Setup Instructions
 
 ### Prerequisites
 
-- Node.js installed on your computer
+- Node.js installed on your computer<br>
 - npm (Node Package Manager)
 
 ### Installing Dependencies
