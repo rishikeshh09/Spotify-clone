@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotify-c.png" type="image/x-icon">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="spotify-c.png" alt="spotify"> Spotify</li>
+            <li><a href="index.html" style="color: #1DB954; text-decoration: none;">Home</a></li>
+            <li><a href="about.html" style="color: white; text-decoration: none;">About</a></li>
+            
+            <li class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for songs...">
+                <button id="searchButton"><i class="fa-solid fa-search"></i></button>
+                <div id="searchResults" class="search-results">
+                    <!-- Search results will be populated by JavaScript -->
+                </div>
+            </li>
+            <li id="user-profile" class="user-profile">
+                <!-- User profile will be populated by JavaScript -->
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Today's Biggest Hits</h1>
+            <div class="songItemContainer">
+                <!-- Songs will be dynamically loaded from server -->
+                <div class="loading-message">Loading songs...</div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="currentTime">00:00 / 00:00</div>
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-2x" style="color: #ffffff;"></i>
+            <i class="fa-regular fa-circle-play fa-3x" style="color: #ffffff;" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2x" style="color: #ffffff;"></i>
+        </div>
+        <div class="songInfo">
+            <img src="songplaying.gif" width="60px" id="gif"> <span id="masterSongName">DJ Snake - Let Me Love You ft. Justin Bieber</span>
+        </div>
+        <div class="volume-container">
+            <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+            <input type="range" id="volumeControl" min="0" max="100" value="50">
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
