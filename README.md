@@ -38,7 +38,7 @@ Express.js - Web application framework
 CORS - Cross-origin resource sharing
 File System (fs) - Local file management
 
-###Frontend:
+### Frontend:
 
 Vanilla JavaScript - No frameworks, pure JS
 HTML5 - Semantic markup
