@@ -78,7 +78,6 @@ spotify/
 ## Features
 
 - User authentication (registration and login)
-- Fetches songs from a server API instead of using local files
 - Search functionality that queries the server
 - Play, pause, skip, and volume control
 - Responsive design
